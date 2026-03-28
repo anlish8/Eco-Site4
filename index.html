@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFuture | 守护我们的星球</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Noto+Sans+SC:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta name="description" content="致力于环境保护与可持续发展的未来。Commited to environmental protection and a sustainable future.">
+</head>
+<body>
+    <div class="ambient-light"></div>
+    
+    <nav class="glass-nav">
+        <div class="logo">EcoFuture</div>
+        <div class="nav-links">
+            <a href="#mission" data-zh="使命" data-en="Mission">使命</a>
+            <a href="#stats" data-zh="影响" data-en="Impact">影响</a>
+            <a href="#join" data-zh="加入我们" data-en="Join Us">加入我们</a>
+            <button id="lang-toggle" class="lang-btn">
+                <span class="active">CN</span> / <span>EN</span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">
+                <span class="display-block" data-zh="自然的呼唤" data-en="Nature Calls">自然的呼唤</span>
+                <span class="gradient-text" data-zh="守护绿色未来" data-en="Guard A Green Future">守护绿色未来</span>
+            </h1>
+            <p class="fade-in delay-1" data-zh="我们致力于通过技术创新与社区行动，恢复地球生态平衡，为下一代创造可持续的生存环境。" 
+               data-en="We are dedicated to restoring the ecological balance of our planet through technological innovation and community action, creating a sustainable environment for the next generation.">
+                我们致力于通过技术创新与社区行动，恢复地球生态平衡，为下一代创造可持续的生存环境。
+            </p>
+            <a href="#mission" class="cta-btn fade-in delay-2" data-zh="探索更多" data-en="Explore More">探索更多</a>
+        </div>
+        <div class="hero-visual fade-in delay-2">
+            <div class="earth-circle"></div>
+            <div class="leaf-card glass-card float-anim">
+                <span class="icon">🌿</span>
+                <div class="text">
+                    <h4 data-zh="碳中和" data-en="Carbon Neutral">碳中和</h4>
+                    <p data-zh="100% 可再生能源" data-en="100% Renewable">100% 可再生能源</p>
+                </div>
+            </div>
+            <div class="water-card glass-card float-anim delay-anim">
+                <span class="icon">💧</span>
+                <div class="text">
+                    <h4 data-zh="海洋保护" data-en="Ocean Saving">海洋保护</h4>
+                    <p data-zh="净化水源行动" data-en="Purify Water">净化水源行动</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="mission" class="section">
+        <div class="section-header">
+            <h2 class="gradient-text" data-zh="我们的核心使命" data-en="Our Core Mission">我们的核心使命</h2>
+            <p data-zh="不仅仅是口号，而是切实的行动计划" data-en="Not just a slogan, but a concrete action plan">不仅仅是口号，而是切实的行动计划</p>
+        </div>
+        
+        <div class="grid-container">
+            <div class="feature-card glass-card scroll-reveal">
+                <div class="card-icon">🌱</div>
+                <h3 data-zh="生态修复" data-en="Ecological Restoration">生态修复</h3>
+                <p data-zh="通过植树造林和湿地恢复，重建受损的生态系统，增加生物多样性。" 
+                   data-en="Rebuilding damaged ecosystems and increasing biodiversity through reforestation and wetland restoration.">
+                   通过植树造林和湿地恢复，重建受损的生态系统，增加生物多样性。
+                </p>
+            </div>
+            <div class="feature-card glass-card scroll-reveal delay-1">
+                <div class="card-icon">♻️</div>
+                <h3 data-zh="循环经济" data-en="Circular Economy">循环经济</h3>
+                <p data-zh="推动资源的高效利用，减少浪费，建立可持续的生产和消费模式。" 
+                   data-en="Promoting efficient resource use, reducing waste, and establishing sustainable production and consumption patterns.">
+                   推动资源的高效利用，减少浪费，建立可持续的生产和消费模式。
+                </p>
+            </div>
+            <div class="feature-card glass-card scroll-reveal delay-2">
+                <div class="card-icon">☀️</div>
+                <h3 data-zh="清洁能源" data-en="Clean Energy">清洁能源</h3>
+                <p data-zh="加速向太阳能、风能等可再生能源的转型，减少对化石燃料的依赖。" 
+                   data-en="Accelerating the transition to renewable energy sources like solar and wind, reducing reliance on fossil fuels.">
+                   加速向太阳能、风能等可再生能源的转型，减少对化石燃料的依赖。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="stats" class="section dark-bg">
+        <div class="stats-container">
+            <div class="stat-item scroll-reveal">
+                <span class="number">10M+</span>
+                <span class="label" data-zh="树木种植" data-en="Trees Planted">树木种植</span>
+            </div>
+            <div class="stat-item scroll-reveal delay-1">
+                <span class="number">50+</span>
+                <span class="label" data-zh="参与国家" data-en="Countries">参与国家</span>
+            </div>
+            <div class="stat-item scroll-reveal delay-2">
+                <span class="number">200K</span>
+                <span class="label" data-zh="志愿者" data-en="Volunteers">志愿者</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="join" class="section">
+        <div class="cta-box glass-card scroll-reveal">
+            <h2 data-zh="准备好做出改变了吗？" data-en="Ready to Make a Change?">准备好做出改变了吗？</h2>
+            <p data-zh="每一个微小的行动，汇聚起来就是改变世界的力量。" data-en="Every small action, when combined, is the power to change the world.">每一个微小的行动，汇聚起来就是改变世界的力量。</p>
+            <form class="subscribe-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing! / 感谢您的订阅！')">
+                <input type="email" placeholder="Email Address / 邮箱地址" required>
+                <button type="submit" data-zh="加入行动" data-en="Join Action">加入行动</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="brand">EcoFuture</div>
+            <p data-zh="© 2026 EcoFuture. 保留所有权利。" data-en="© 2026 EcoFuture. All rights reserved.">© 2026 EcoFuture. 保留所有权利。</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
